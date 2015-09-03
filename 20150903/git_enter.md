@@ -6,6 +6,9 @@
 ### 下载
 下载git： [http://git-scm.com/download/](http://git-scm.com/download/)
 
+### 注册账号
+到这里注册账号[https://github.com/](https://github.com/)
+
 ### 设置git
 配置git当前使用的用户名和邮箱，便于跟踪修改人
 ```
