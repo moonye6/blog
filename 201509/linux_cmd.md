@@ -1,12 +1,24 @@
 ## linux cmd
 
 [c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
-[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
-[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
-[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
-[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
-[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
 
+[d](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#d)
+
+[f](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#f)
+
+[l](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#l)
+
+[m](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#m)
+
+[n](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#n)
+
+[r](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#r)
+
+[s](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#s)
+
+[z](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#z)
+
+[案例](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#案例)
 
 ### c
 #####cp
