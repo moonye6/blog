@@ -16,6 +16,8 @@
 
 [s](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#s)
 
+[t](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#t)
+
 [z](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#z)
 
 [案例](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#案例)
