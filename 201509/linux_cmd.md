@@ -1,5 +1,13 @@
 ## linux cmd
 
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)[c](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md#c)
+
+
 ### c
 #####cp
 使用：cp filename /newpath/
