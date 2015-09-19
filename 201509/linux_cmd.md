@@ -82,7 +82,7 @@
 
 作用：下载文件
 
-### zip
+### z
 ##### zip
 使用：zip -r temp.zip temp
 
