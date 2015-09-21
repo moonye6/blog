@@ -63,3 +63,6 @@ chattr  -i  filename    /* 去掉‘不可更改位‘ */
 ### 自动化
 + 重要文件或数据库备份自动化 可通过crontab任务来定时执行
 + 服务或程序本身属于定时任务，则对于重要数据、文件在服务或程序内部自行实现
+
+### 问题跟踪
+以上一些操作涉及到linux上的一些命令，在[这里](https://github.com/moonye6/blog/blob/master/201509/linux_cmd.md)可以快速查到，欢迎补充常用的命令
