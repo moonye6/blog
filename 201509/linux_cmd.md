@@ -121,6 +121,11 @@ tar zxvf ab.tar [-C /data/test1/bb] //解压到指定目录，需指定-C参数�
 
 作用：下载文件
 
+##### service
+使用：service xxx status
+
+作用：管理机器上的服务
+
 ### z
 ##### zip
 使用：zip -r temp.zip temp
@@ -146,6 +151,18 @@ mv /var/lib/mysql /data/
 //创建软连接(软连接名：mysql，在var/lib目录下面，指向/data/mysql):
 ln -s /data/mysql/ /var/lib/mysql
 //启动mysql:
-servide mysqld stop
+servide mysqld start
 ```
+
+### 检测服务
+
+```
+//查看服务状态
+servide cron status
+//启动服务
+cservide cron start
+//停止服务
+servide cron stop
+```
+
 
