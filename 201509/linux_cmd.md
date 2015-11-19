@@ -95,8 +95,10 @@ vi root //或者其他文件
 ### r
 ##### rz
 使用：rz
-
+      rz -bye 传输大文件，防止传输中断
 作用：接受上传文件
+
+
 
 ### t
 ##### tar
@@ -118,6 +120,7 @@ tar zxvf ab.tar [-C /data/test1/bb] //解压到指定目录，需指定-C参数�
 ### s
 ##### sz
 使用：sz filename
+      sz -bye filename 传输大文件，防止传输中断
 
 作用：下载文件
 
