@@ -138,6 +138,14 @@ echo # blog >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/moonye6/blog.git
+git remote add origin git@github.com:moonye6/PromiseB.git
 git push -u origin master
 ```
+> 这里可能碰到一个问题 就是按照这个操作了 还是提示远程分之不存在
+> 那么需要确认两个问题 1 远程分支你是否有写入权限 咨询项目人就可以知道 2 删除掉本地项目.git/config下内容
+> [remote "origin"]
+>	url = git@github.com:moonye6/PromiseB.git
+>	fetch = +refs/heads/*:refs/remotes/origin/*
+>	重新执行
+>	git remote add origin git@github.com:moonye6/PromiseB.git
+> git push -u origin master
