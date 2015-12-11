@@ -179,4 +179,12 @@ cservide cron start
 servide cron stop
 ```
 
+### 修改环境变量
+/etc/profile：对所有用户生效；此文件为系统的每个用户设置环境信息,当用户第一次登录时,该文件被执行；并从/etc/profile.d目录的配置文件中搜集shell的设置
+例如：编辑/etc/profile文件，添加CLASSPATH变量
+# vi /etc/profile
+添加一行：
+export CLASSPATH=./JAVA_HOME/lib;$JAVA_HOME/jre/lib
+修改后需要执行重新登录才能生效，也可以执行命令source /etc/profile来生效
 
+临时的：使用export命令声明即可
