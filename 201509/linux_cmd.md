@@ -140,6 +140,13 @@ tar zxvf ab.tar [-C /data/test1/bb] //解压到指定目录，需指定-C参数�
 
 作用：管理机器上的服务
 
+##### sed 
+使用: sed -i '/匹配字符串/d'  filename  or sed -i '[/匹配字符串]/s/替换源字符串/替换目标字符串/g' filename
+作用：在线编辑器，可以很方便的对文件做批处理
+> 上面[]内容可选
+
+
+
 ### z
 ##### zip
 使用：zip -r temp.zip temp
@@ -188,3 +195,8 @@ export CLASSPATH=./JAVA_HOME/lib;$JAVA_HOME/jre/lib
 修改后需要执行重新登录才能生效，也可以执行命令source /etc/profile来生效
 
 临时的：使用export命令声明即可
+
+### dos格式转unix或者mac格式
+强大的脚本 sed 's/^M//' filename > tmp_filename 其中^M是同时Ctrl+V+M按出来的，表示回车
+或 tr -d "\r" filename 或 cat filename | perl -pe '~s/\r//g' > tmp_filename 
+> 强大的vim vim filename :set fileformat=unix :w 或 vim filename :%s/^M//g :w
