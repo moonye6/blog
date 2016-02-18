@@ -38,3 +38,5 @@ db.user_addr.save({'Uid':'yushunzhi[@sohu](/user/sohu).com','Al':['test-1[@sohu]
  
 #### 根据query条件修改，如果不存在则插入，允许修改多条记录
 db.foo.update({'yy':5},{'$set':{'xx':2}},upsert=true,multi=true)
+
+http://www.cnblogs.com/xusir/archive/2012/12/24/2830957.html
