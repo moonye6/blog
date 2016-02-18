@@ -1,20 +1,33 @@
 ## mongo常用命令操作
 
 help                                     `mongodb支持的命令`
+
 show dbs                                 `查看所有数据库`
+
 use test
+
 db                                       `查看当前连接在哪个数据库`
+
 show collections                         `查看所有的collection `
+
 db.help()                                `当前数据库支持哪些方法`
+
 db.user.help()                           `当前数据库下的表或者表collection支持的方法`
+
  
 db.foo.find()                            `查找所有`
+
 db.foo.findOne()                         `查找一条记录`
+
 db.foo.find({'msg':'Hello 1'}).limit(10) `根据条件检索10条记录`
+
  
 db.mail_addr.drop()                      `删除collection`
+
 db.dropDatabase()                        `删除当前的数据库`
+
 db.foo.remove({'yy':5})                  `删除yy=5的记录 `
+
 db.foo.remove()                          `删除所有的记录`
  
 #### 存储嵌套的对象
