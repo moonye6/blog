@@ -40,3 +40,6 @@ db.user_addr.save({'Uid':'yushunzhi[@sohu](/user/sohu).com','Al':['test-1[@sohu]
 db.foo.update({'yy':5},{'$set':{'xx':2}},upsert=true,multi=true)
 
 http://www.cnblogs.com/xusir/archive/2012/12/24/2830957.html
+
+
+> 坑1： mongoose连接mongo的时候，使用model('Apple', Apple)来可以创建表，但是创建出来的表名会转为小写了，并且在apple后面加了一个`s` （mongoose源码行为）
