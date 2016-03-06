@@ -149,3 +149,9 @@ git push -u origin master
 >	重新执行
 >	git remote add origin git@github.com:moonye6/PromiseB.git
 > git push -u origin master
+
+### git push代码提示证书不对
++ 使用ssh-keygen -rsa -C "message",生成秘钥；//或者ssh-keygen然后按提示操作即可
++ 在/home/xxxx/.ssh/下面找到id_rsa.pub和id_rsa; //用户目录下面
++ 复制id_rsa.pub中得内容，添加到github得SSH公钥去。
++ 命令行运行， ssh git@github.com，会看到成功信息。
