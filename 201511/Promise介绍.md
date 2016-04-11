@@ -22,7 +22,9 @@ Promise 对象是一个返回值的代理，这个返回值在promise对象创�
 这里只有两个动画，如果有更多呢，就会看到一堆函数缩进
 
 ### 一种写法
+
 > 浏览器实现方式 可以在支持Promise的版本上运行
+
 ```
 var p = new Promise(function(resolve, reject){
   setTimeout(function(){
@@ -39,6 +41,7 @@ p.then(function(){
   },300);
 });
 ```
+
 ### 另一种写法（jQuery版本）
 
 >jQuery版本的实现
@@ -57,7 +60,9 @@ deferred.done(function() {
     console.log('B');
   },300)
 });
+
 ```
+
 好像从代码上来看，是多了几行的样子，但是能用这种串行的方式来写，感觉一定很爽吧
 
 ### Promise中的概念
@@ -72,6 +77,7 @@ Promise中有几个状态：
 
 
 ### 一个简单版本的实现
+
 ```
 /**
  * simple promise 
@@ -210,13 +216,16 @@ PromiseB.prototype.always = function(fun) {
 
 ```
 
+
 ### 总结
+
 + promise会让代码变得更容易维护，像写同步代码一样写异步代码
 + 了解promise的原理，写个简单的实现版本就好了
 + promise的实现方案有很多，可以看[这里](https://github.com/nodejs/node-v0.x-archive/wiki/modules#wiki-async-flow)
 + [这里](https://github.com/moonye6/PromiseB)有项目代码和几个demo，方便查看
 
 ### 相关阅读
+
 + [Promise - MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 + [jQuery.Callbacks()](http://www.css88.com/jqapi-1.9/jQuery.Callbacks/)
 + [如何实现一个ECMAScript 6 的promise功能](http://www.html-js.com/article/JavaScript-tips-on-how-to-implement-a-ECMAScript-6-promise-patch)
